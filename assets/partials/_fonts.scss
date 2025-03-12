@@ -1,0 +1,13 @@
+$font-primary: 'Times';
+
+$font-size-sm: 14px;
+$font-size-normal: 16px;
+$font-size-md: 18px;
+$font-size-lg: 26px;
+$font-size-xl: 36px;
+$font-size-xxl: 46px;
+
+body {
+font-family: $font-primary;
+font-size: $font-size-normal;
+}

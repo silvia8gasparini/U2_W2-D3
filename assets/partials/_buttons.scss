@@ -1,0 +1,16 @@
+button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+
+  &.primary { background: $primary-color; color: white; }
+  &.secondary { background: $secondary-color; color: white; }
+  &.tertiary { background: $tertiary-color; color: white; }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
