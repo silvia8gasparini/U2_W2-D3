@@ -1,3 +1,27 @@
+button {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+button.primary {
+  background: #0e6cff;
+  color: white;
+}
+button.secondary {
+  background: #ff8700;
+  color: white;
+}
+button.tertiary {
+  background: #4caf50;
+  color: white;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
 body {
   font-family: "Times";
   font-size: 16px;
